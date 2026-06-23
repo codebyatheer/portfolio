@@ -418,110 +418,148 @@ h6 {
 
 
 
+
 @media(max-width: 600px) {
 
+    
+    body {
+        position: fixed !important;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden !important;
+    }
+
+   
     #upper-section {
-
-        margin-top: 20%;
-
+        margin-top: 5% !important;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        gap: 20%;
-
+        gap: 15px !important; 
     }
 
     #folders-section {
-        width: 90%;
+        width: 95%;
         flex-direction: row;
+        justify-content: center;
+        gap: 20px;
     }
 
     #clock {
-
         width: 90%;
-        padding: 2%;
+        padding: 3%;
+    }
+
+    h1 {
+        font-size: 3.5rem;
     }
 
     #dock {
-
         width: 90%;
-        padding: 2%;
-        margin-bottom: 20%;
+        padding: 3%;
+        margin-bottom: 8% !important;
     }
 
     #Win-border {
-
-    width: 90%;
-
+        width: 92% !important;
+        height: 75vh !important;
+        top: 48% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        position: fixed !important;
     }
 
-    #app-icons{
-
-        flex-wrap: wrap;
-       justify-content: left;
-       height: 50%;
-       align-items: center;
-       margin-bottom: 65%;
-
+    .popup-content {
+        flex-direction: column !important; 
+        align-items: center;
+        justify-content: flex-start;
+        height: 85% !important; 
+        overflow-y: auto !important;
+        gap: 15px;
     }
- .popup-content{
-  flex-direction: column-reverse;
- }  
- #icons{
-
-    width: 100%;
-    border-right: none ;
-        border-top: #ebbfc3c1 3px solid;
- }
- 
- #bio,#display{ width: 100%;}
- #its-me{
 
 
-    width: 100% 
- }
+    #app-icons {
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+        height: auto !important;
+        margin-bottom: 0 !important;
+        gap: 15px;
+    }
 
- .pics{height: 16rem;}
- #lan{width: 90%;}
+    #icons {
+        width: 100%;
+        height: auto !important;
+        border-right: none;
+        border-bottom: #ebbfc3c1 3px solid; 
+        padding-bottom: 10px;
+        justify-content: center;
+    }
 
- #app-info{
+    #app-info {
+        flex-direction: column !important;
+        width: 100% !important;
+        height: auto !important;
+        border-right: none;
+        border-bottom: #ebbfc3c1 3px solid;
+        padding-bottom: 10px;
+        gap: 8px;
+    }
 
-flex-direction: row;
-height: 50%;
-width: 100%;
-   border-top: #ebbfc3c1 3px solid;
-   border-right: none ;
+    #info-1, #info-2 {
+        width: 100%;
+        height: auto !important;
+    }
 
- }
+    #app-display {
+        width: 100% !important;
+        height: auto !important;
+        gap: 10px;
+    }
 
- #info-1,#info-2{
+    .display-image {
+        height: auto !important;
+        max-height: 140px !important; 
+        width: auto !important;
+    }
 
-display: flex;
-flex-direction: column;
-height: 100%;
-width: 100%;
+    .pics {
+        height: auto !important;
+        max-height: 220px !important;
+        width: auto !important;
+    }
 
- }
+    #lan {
+        height: auto !important;
+        max-height: 180px !important;
+        width: auto !important;
+    }
 
- #app-display{
+    #display, #bio {
+        width: 100%;
+        height: auto !important;
+    }
 
-    width: 100%;
-    height: 50%;
+    #its-me {
+        width: 100%;
+        height: 250px !important;
+    }
 
- }
+    .description {
+        font-size: 0.7rem;
+        line-height: 1.4;
+    }
 
-.description {
-
-    font-size: 0.6rem;
-} 
-
-#tech-stack{
-
-    gap: 10%;
-    height: 50%;
-    justify-content: center;
-    margin-top: 7%;
-}
-
+    #tech-stack {
+        width: 100%;
+        height: auto !important;
+        gap: 8px;
+        margin-top: 5px;
+        justify-content: flex-start;
+    }
 }
