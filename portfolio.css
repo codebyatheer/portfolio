@@ -1,0 +1,453 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background: fixed;
+    background-image: url(wallpaper.png);
+    background-size: cover;
+    margin: auto;
+    overflow: hidden;
+    cursor: url(AALogo.png);
+
+}
+
+.folder {
+
+    height: 3rem;
+    width: auto;
+
+}
+
+.app {
+
+    height: 3rem;
+    width: auto;
+
+
+}
+
+#upper-section {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    padding: 3%;
+
+}
+
+#folders-section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+    gap: 15px;
+
+}
+
+#row1,
+#row2 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    gap: 5%;
+}
+
+.apps {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    width: 100%;
+
+}
+
+#dock {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: max-content;
+    width: 35%;
+    padding: 0.7%;
+    background-color: rgba(255, 255, 255, 0.598);
+    border: 4px #EBBFC3 solid;
+    border-radius: 10px;
+    margin-bottom: 3%;
+
+}
+
+label {
+    font-family: K2D;
+    font-size: 14px;
+
+}
+
+
+#clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: max-content;
+    padding: 1%;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.598);
+    border: 4px #EBBFC3 solid;
+    border-radius: 10px;
+
+
+}
+
+.clock-component {
+    font-family: K2D;
+    font-weight: 400;
+    color: #EBBFC3;
+}
+
+#clock- {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+h1 {
+
+    font-size: 5rem;
+    margin: -3%;
+
+}
+
+h4 {
+
+    font-size: 1.5rem;
+    margin: -1%;
+
+}
+
+
+/*pop ups*/
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(235, 191, 195, 0.457);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+#Win-border {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 65%;
+    background-color: #EBBFC3;
+    border: #d09a9f 2px solid;
+    border-radius: 1%;
+}
+
+#popup-bar {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+    width: 100%;
+
+}
+
+h6 {
+
+    font-family: K2D;
+    font-size: 18px;
+    color: white;
+    margin-left: 2%;
+
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    width: 93%;
+    height: 78%;
+    position: relative;
+    z-index: 1000;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+#icons {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 40%;
+    height: 90%;
+    border-right: #ebbfc3c1 3px solid;
+    flex-wrap: wrap;
+
+}
+
+.folder-apps {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    width: 30%;
+
+}
+
+#bio,
+#Skills,
+#Tools,
+#Langs,
+#its-me {
+    display: none;
+}
+
+
+.close-btn {
+    font-size: 1.5rem;
+    font-style: bold;
+    background-color: #EBBFC3;
+    color: white;
+    width: 10%;
+    text-align: center;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+
+#display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+#skills {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pics {
+
+    height: 19rem;
+    width: auto;
+
+}
+
+#lan {
+    height: 16rem;
+    width: auto;
+}
+
+#bio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#its-me {
+
+    width: 90%;
+    height: 90%;
+    border: none;
+
+}
+
+#app-icons {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+
+}
+
+.app-p {
+
+    height: 4.5rem;
+    width: auto;
+
+
+}
+
+#app-info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    width: 40%;
+    height: 100%;
+    border-right: #ebbfc3c1 3px solid;
+    gap: -0.5%;
+
+}
+
+#tech-stack {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
+    width: 90%;
+    height: 31%;
+    flex-wrap: wrap;
+
+}
+
+.app-tech {
+
+    height: 1.7rem;
+    width: auto;
+
+}
+
+.description {
+
+    font-family: K2D;
+    font-size: 0.7rem;
+    text-align: left;
+
+
+}
+
+#app-display {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 5%;
+    height: 100%;
+    width: 55%;
+
+}
+
+.display-image {
+
+    height: 60%;
+    width: auto;
+
+
+}
+
+.buttons {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    gap: 3%;
+
+
+}
+
+.display-buttons {
+
+    border: #ebbfc3c1 3px solid;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.598);
+    width: 70%;
+
+
+
+}
+
+
+.link {
+    color: #4a7ba7;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.link:hover {
+    color: #d09a9f;
+
+}
+
+.cl-labels {
+
+    margin-bottom: -5px;
+}
+
+
+
+@media(max-width: 600px) {
+
+    #upper-section {
+
+        margin-top: 20%;
+
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 20%;
+
+    }
+
+    #folders-section {
+        width: 90%;
+        flex-direction: row;
+    }
+
+    #clock {
+
+        width: 90%;
+        padding: 2%;
+    }
+
+    #dock {
+
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 20%;
+    }
+
+}
