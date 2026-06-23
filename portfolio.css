@@ -370,7 +370,7 @@ h6 {
 
 .display-image {
 
-    height: 60%;
+    height: 55%;
     width: auto;
 
 
@@ -449,5 +449,79 @@ h6 {
         padding: 2%;
         margin-bottom: 20%;
     }
+
+    #Win-border {
+
+    width: 90%;
+
+    }
+
+    #app-icons{
+
+        flex-wrap: wrap;
+       justify-content: left;
+       height: 50%;
+       align-items: center;
+       margin-bottom: 65%;
+
+    }
+ .popup-content{
+  flex-direction: column-reverse;
+ }  
+ #icons{
+
+    width: 100%;
+    border-right: none ;
+        border-top: #ebbfc3c1 3px solid;
+ }
+ 
+ #bio,#display{ width: 100%;}
+ #its-me{
+
+
+    width: 100% 
+ }
+
+ .pics{height: 16rem;}
+ #lan{width: 90%;}
+
+ #app-info{
+
+flex-direction: row;
+height: 50%;
+width: 100%;
+   border-top: #ebbfc3c1 3px solid;
+   border-right: none ;
+
+ }
+
+ #info-1,#info-2{
+
+display: flex;
+flex-direction: column;
+height: 100%;
+width: 100%;
+
+ }
+
+ #app-display{
+
+    width: 100%;
+    height: 50%;
+
+ }
+
+.description {
+
+    font-size: 0.6rem;
+} 
+
+#tech-stack{
+
+    gap: 10%;
+    height: 50%;
+    justify-content: center;
+    margin-top: 7%;
+}
 
 }
