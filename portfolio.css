@@ -479,6 +479,11 @@ h6 {
         gap: 15px;
     }
 
+    #non-reverse{
+  flex-direction: column !important;
+        
+    }
+
 
     #app-icons {
         display: flex;
@@ -496,7 +501,7 @@ h6 {
         width: 100%;
         height: auto !important;
         border-right: none;
-        border-bottom: #ebbfc3c1 3px solid; 
+        border-top: #ebbfc3c1 3px solid; 
         padding-bottom: 10px;
         justify-content: center;
     }
@@ -506,7 +511,7 @@ h6 {
         width: 100% !important;
         height: auto !important;
         border-right: none;
-        border-bottom: #ebbfc3c1 3px solid;
+        border-top: #ebbfc3c1 3px solid;
         padding-bottom: 10px;
         gap: 8px;
     }
