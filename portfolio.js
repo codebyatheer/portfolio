@@ -143,6 +143,20 @@ const vc = [
 
 ];
 
+const sumiji = [
+
+    "icons/sumiji-1.png",
+
+    "icons/sumiji-2.png",
+
+    "icons/sumiji-3.png",
+
+    "icons/sumiji-4.png",
+
+    "icons/sumiji-0.png"
+
+];
+
 const cl1 = [
 
     "icons/cl1-1.png",
@@ -154,6 +168,7 @@ const cl1 = [
 
 ];
 
+
 const cl2 = [
 
     "icons/cl2-1.png",
@@ -163,6 +178,46 @@ const cl2 = [
     "icons/cl2-3.png",
 
     "icons/cl2-0.png"
+
+
+];
+
+const cl3 = [
+
+    "icons/cl3-1.png",
+
+    "icons/cl3-0.png"
+
+
+];
+
+const cl4 = [
+
+    "icons/cl4-1.png",
+
+    "icons/cl4-2.png",
+
+    "icons/cl4-0.png"
+
+
+];
+
+const cl5 = [
+
+    "icons/cl5-1.png",
+
+    "icons/cl5-0.png"
+
+
+];
+
+const cl6 = [
+
+    "icons/cl6-1.png",
+
+    "icons/cl6-2.png",
+
+    "icons/cl6-0.png"
 
 
 ];
